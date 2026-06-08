@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="个人博客 - 记录思考、技术与生活" />
+    <meta name="theme-color" content="#6366f1" />
+    <meta property="og:title" content="My Blog" />
+    <meta property="og:description" content="记录思考、技术与生活" />
+    <meta property="og:type" content="website" />
+    <title>My Blog</title>
+    <!-- Prevent theme flash: apply theme before page renders -->
+    <script>
+      (function() {
+        var mode = localStorage.getItem('theme-mode') || 'system'
+        var resolved = 'light'
+        if (mode === 'dark') { resolved = 'dark' }
+        else if (mode === 'light') { resolved = 'light' }
+        else if (mode === 'system' && window.matchMedia('(prefers-color-scheme: dark)').matches) { resolved = 'dark' }
+        document.documentElement.setAttribute('data-theme', resolved)
+      })()
+    </script>
+    <style>
+      /* Fallback: use system fonts if 龚帆乐淘体 is not available */
+      @font-face {
+        font-family: '龚帆乐淘体';
+        src: local('龚帆乐淘体'),
+             local('Huayuan Gothic'),
+             url('/fonts/龚帆乐淘体.ttf') format('truetype');
+        font-display: swap;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="app"></div>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
