@@ -12,8 +12,8 @@
 
 ---
 部分页面展示
-<img width="2471" height="1402" alt="屏幕截图 2026-07-04 170918" src="https://github.com/user-attachments/assets/8f717052-75c9-4303-bbd5-68011ee88347" />
-<img width="2477" height="1385" alt="屏幕截图 2026-07-04 171323" src="https://github.com/user-attachments/assets/06603f04-c4c9-4690-abbd-50bf9b887d13" />
+<img width="2471" height="1402" alt="170918" src="https://github.com/user-attachments/assets/8f717052-75c9-4303-bbd5-68011ee88347" />
+<img width="2477" height="1385" alt="171323" src="https://github.com/user-attachments/assets/06603f04-c4c9-4690-abbd-50bf9b887d13" />
 
 
   ✨ 功能清单
